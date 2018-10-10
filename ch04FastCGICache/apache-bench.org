@@ -1,0 +1,4 @@
+# install
+apt-get install apache-utils
+# usage
+ab -n 100 -c 10 <url>
