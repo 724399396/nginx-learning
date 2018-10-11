@@ -1,0 +1,8 @@
+nghttp2 is a tool for test http2
+# website
+nghttp2.org
+# install
+apt-get install nghttp2-client
+# usage
+nghttp -nys <url>
+nghttp -nysa <url>
