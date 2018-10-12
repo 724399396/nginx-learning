@@ -1,0 +1,7 @@
+Siege is an http load testing and benchmarking utility.
+# home
+https://www.joedog.org/siege-home/
+# install
+apt-get install siege
+# usage
+siege -v -r 2 -c 5 <url>
