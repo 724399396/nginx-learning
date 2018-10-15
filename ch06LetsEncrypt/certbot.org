@@ -1,0 +1,10 @@
+# home page
+https://certbot.eff.org/lets-encrypt/ubuntuxenial-nginx
+# usage
+certbot run (generate cert and change nginx config)
+
+certbot certonly -d <domain>, only generate certificate and key
+
+certbot --nginx (read domain from nginx config, generate certificate and config)
+
+certbot renew, renew certificate
