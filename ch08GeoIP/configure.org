@@ -1,0 +1,7 @@
+# configure
+--with-http_geoip_module
+# install dependency in ubuntu
+apt-get install libgeoip-dev
+# download geo data
+https://dev.maxmind.com/geoip/legacy/geolite/
+# extract to /etc/nginx/geoip/
