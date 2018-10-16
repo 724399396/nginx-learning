@@ -1,0 +1,4 @@
+# start server
+php -S <url:port>
+# with server file
+php -S <url:port> <file-location> 
